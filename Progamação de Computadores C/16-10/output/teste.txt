@@ -1,0 +1,3 @@
+Número = 30
+Float = 67.787804
+String = Não sei
