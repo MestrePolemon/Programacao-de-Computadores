@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Maratonas</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+	<main>
+		<header>
+			<h1>MARATONAS</h1>
+		</header>
+		<div id="imagem">
+			<img src="img/bike.jpeg" class="imagem_regular">
+		</div>
+
+		<nav>
+			<ul>
+				<li><a href="index.html"><button> HOME</button></a></li>
+				<li><a href="biografia.html"><button>BIOGRAFIA</button> </a></li>
+				<li><a href="maratonas.html"><button>MARATONAS</button></a></li>
+				<li><a href="contato.html"><button>CONTATO</button></a></li>
+			</ul>
+
+		</nav>
+		<section>
+			<form action="cadastro.php" autocomplete="on" method="post">
+				<div><label for="nome">Nome</label><input type="text" name="nome" id="nome" required placeholder="seu nome"></div>
+				<div><label for="sobrenome">Sobrenome</label><input type="text" name="sobrenome" id="sobrenome" required placeholder="seu sobrenome"></div>
+				<div><label for="idade">Idade</label><input type="number" name="idade" id="idade" required placeholder="Sua idade"></div>
+				<div><Label for="dia">Dia</Label><input type="date" name="dia" id="dia" required></div>
+				<div><Label for="mes">Mês</Label><input type="month" name="mes" id="mes" required></div>
+				<div><label for="comentario">Comentários:</label><textarea name="comentario" id="comentario" required placeholder="Deixe seu Comentário aqui:"></textarea></div>
+				<div><label for="senha">Senha</label><input type="password" name="senha" id="senha" required placeholder="Insira sua senha" minlength="8"></div>
+				<div><button><input type="submit" value="Enviar"></button></div>
+				<div><button><input type="reset" value="Limpar"></button></div>
+			</form>
+
+
+		</section>
+
+
+		<footer>
+			<h4 class="centralizar">Todos os direitos reservados</h4>
+		</footer>
+
+
+	</main>
+
+</body>
+
+</html>
